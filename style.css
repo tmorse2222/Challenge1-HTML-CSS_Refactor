@@ -1,12 +1,31 @@
+/* Style for all elements */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Style for all <a> elements */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Style for all <p> elements */
+
+p {
+    font-size: 16px;
+}
+
+/* Style for all <body> content */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Style for class='header' */
 
 .header {
     padding: 20px;
@@ -15,14 +34,20 @@ body {
     color: #ffffff;
 }
 
+/* Style for <h1> in class='header' */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Style for class='seo' */
+
+.seo {
     color: #d9dcd6;
 }
+
+/* Style for the section and list with class='header' (links at top of page) */
 
 .header section {
     padding-top: 15px;
@@ -40,6 +65,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Style for figure class='hero' */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -48,23 +76,31 @@ body {
     background-size: cover;
     background-position: center;
 }
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+/* Style for section with class='content' */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Style for images with class='float-left' */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Style for images with class='float-right' */
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Style for article with id='search-engine-optimization' */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -73,13 +109,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 .search-engine-optimization img {
     max-height: 200px;
 }
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Style for article with id='online-reputation-managment' */
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,13 +129,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 .online-reputation-management img {
     max-height: 200px;
 }
+
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Style for article with id='social media marketing' */
+
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -103,26 +149,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 .social-media-marketing img {
     max-height: 200px;
 }
+
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Style for aside with class='benefits' */
 
 .benefits {
     margin-right: 20px;
@@ -135,32 +172,14 @@ p {
     background-color: #2589bd;
 }
 
+/* Style for article with class='benifit-lead' */
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -171,10 +190,34 @@ p {
     max-width: 150px;
 }
 
+/* Style for article with class='benifit-brand' */
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+/* Style for article with class='benefit-cost' */
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-cost img {
@@ -183,6 +226,7 @@ p {
     max-width: 150px;
 }
 
+/* Style for class='footer' */
 .footer {
     padding: 30px;
     clear: both;

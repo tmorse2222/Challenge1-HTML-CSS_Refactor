@@ -19,3 +19,4 @@ University of Arizona coding bootcamp challenge 1- HTML/CSS Refactor
 
 
 Our goal is to improve the websites accessability to make it appear more in search engines. The main changes that are commited to the starter code are the additions of semantic tags, descriptive <alt> on all images, and an overall reorginization of the code in a more logical manner. A link to the webpage can be found <a href="https://tmorse2222.github.io/Challenge1-HTML-CSS_Refactor/index.html" target="_blank">here</a>
+<img src="images/Screenshot.png>" alt="A screenshot of the live webpage">
